@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Spotify.Spotify.Playlist"/>
+      <class name="Spotify.Spotify.Player"/>
+      <class name="Spotify.Spotify.Tracks"/>
+      <class name="Spotify.Spotify.Album"/>
+      <class name="Spotify.Spotify.Spotify_Automation"/>
+      <class name="Spotify.Spotify.Chapters"/>
+      <class name="Spotify.Spotify.Browse"/>
+      <class name="Spotify.Spotify.Markets"/>
+      <class name="Spotify.Spotify.Audiobooks"/>
+      <class name="Spotify.Spotify.Personalization"/>
+      <class name="Spotify.Spotify.Follow"/>
+      <class name="Spotify.Spotify.Shows"/>
+      <class name="Spotify.Spotify.Search"/>
+      <class name="Spotify.Spotify.Library"/>
+      <class name="Spotify.Spotify.Episodes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
